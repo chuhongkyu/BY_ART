@@ -105,11 +105,11 @@
   flex-direction: column;
   margin: 10px;
   text-decoration-line: none;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 5%;
   background-color: white;
 }
-.main_content:hover {
+.main_container a:hover {
   position: relative;
   top: -5px;
 }
