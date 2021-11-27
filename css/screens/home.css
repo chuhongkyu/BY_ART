@@ -94,7 +94,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: 5px;
   color: #000000;
 }
 
@@ -119,6 +118,7 @@
   height: 300px;
 }
 .main_content h1 {
+  font-size: 15px;
 }
 
 .main_explain {
