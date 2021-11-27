@@ -106,6 +106,8 @@
   flex-direction: column;
   margin-right: 5px;
   text-decoration-line: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5%;
 }
 .main_content:hover {
   position: relative;
