@@ -188,7 +188,7 @@
   .nav {
     width: auto;
   }
-  .nav:hover{
+  .nav:hover {
     width: auto;
   }
   #home_container {
@@ -199,4 +199,5 @@
   }
   body {
     width: auto;
+  }
 }
