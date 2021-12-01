@@ -183,3 +183,20 @@
   text-decoration-line: none;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .nav {
+    width: auto;
+  }
+  .nav:hover{
+    width: auto;
+  }
+  #home_container {
+    width: auto;
+  }
+  .footer_container span {
+    font-size: 7px;
+  }
+  body {
+    width: auto;
+}
