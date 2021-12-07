@@ -139,6 +139,9 @@
 
 .click {
 }
+.click:hover {
+  font-weight: 800;
+}
 
 .main_explain {
   display: flex;
