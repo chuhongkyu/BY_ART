@@ -20,16 +20,16 @@ export default function NavBar() {
           display: flex;
           justify-content: center;
           align-items: center;
-          color: black;
-          border-bottom: 1px solid black;
+          color: white;
+          background-color: rgb(0, 155, 222);
         }
         .nav a {
           display: block;
-          padding: 20px;
+          padding: 15px;
           height: 100%;
           margin-right: 5px;
           text-decoration: none;
-          font-size: 25px;
+          font-size: 15px;
         }
         .active {
           color: white;
