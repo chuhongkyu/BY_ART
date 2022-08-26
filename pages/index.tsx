@@ -1,12 +1,9 @@
-import { useState } from "react";
-import NavBar from "../components/NavBar";
-import styles from "../styles/Home.module.css";
+import Wrapper from "../components/Wrapper";
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
+    <Wrapper>
       <h1>Home</h1>
-    </div>
+    </Wrapper>
   );
 }
