@@ -15,7 +15,7 @@ export default function Header() {
           justify-content: center;
           align-items: center;
           color: black;
-          margin: 0px 100px;
+          margin: 0px 200px;
         }
         span {
             display: inline-block;

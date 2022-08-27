@@ -1,9 +1,10 @@
-import Wrapper from "../components/Wrapper";
+import Seo from "../components/Seo";
 
 export default function About() {
   return (
-    <Wrapper>
+    <div>
+      <Seo title="About" />
       <h1>About</h1>
-    </Wrapper>
+    </div>
   );
 }

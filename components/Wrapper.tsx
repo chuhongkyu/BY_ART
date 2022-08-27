@@ -6,7 +6,7 @@ const Wrapper = ({ children }: any) => {
         section {
           width: 100%;
           height: 100vh;
-          margin: 0px 100px;
+          margin: 0px 200px;
         }
       `}</style>
     </section>

@@ -1,9 +1,10 @@
-import Wrapper from "../components/Wrapper";
+import Seo from "../components/Seo";
 
 export default function Home() {
   return (
-    <Wrapper>
+    <div>
+      <Seo title="Home" />
       <h1>Home</h1>
-    </Wrapper>
+    </div>
   );
 }

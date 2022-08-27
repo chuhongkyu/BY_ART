@@ -1,13 +1,14 @@
 import type { AppProps } from "next/app";
 import Header from "../components/Header";
+import Layout from "../components/Layout";
 import NavBar from "../components/NavBar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Header />
-      <NavBar />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
       <style jsx global>{`
         html,
         body {
