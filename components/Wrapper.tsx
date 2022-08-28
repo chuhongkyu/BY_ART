@@ -4,8 +4,7 @@ const Wrapper = ({ children }: any) => {
       {children}
       <style jsx>{`
         section {
-          width: 100%;
-          height: 100vh;
+          height: auto;
           margin: 0px 200px;
         }
       `}</style>
