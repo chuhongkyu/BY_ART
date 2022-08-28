@@ -26,3 +26,15 @@ export function getData() {
     credentials: "include",
   }).then((response) => response.json());
 }
+
+export const data = [
+  {
+    id: "001",
+    author: "BY_ART",
+    name: "BY_Man_32",
+    symbol: "ETH",
+    img: "",
+    description:
+      "This picture is a pixel picture drawn in blue and yellow. It is the Artwork of Mr.chu. 20211110",
+  },
+];
